@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>formularios</title>
+</head>
+<body>
+    <form class="" action="inicio.php" method="post">
+        <h3>Introduce nombres y Apellidos</h3>
+        <input type="text" name="nombre" placeholder="Nombre" value="">
+        <input type="text" name="apellido" placeholder="Apellido" value="">
+        <input type="submit" name="enviar" value="Enviar">
+    
+    </form>
+
+    <form class="" action="inicio.php" method="post">
+        <h3>Usuario y contraseña</h3>
+        <input type="email" name="email" placeholder="CORREO ELECTRONICO" value="" required>
+        <input type="password" name="contraseña" placeholder="contraseña" value="" required><br>    
+        
+        <input type="radio" name="perfil" value="administrador">administrador<br>
+        <input type="radio" name="perfil" value="cliente">cliente<br>
+        
+
+        <select name="calidad" id="">
+            <option value="alta">Alta</option>
+            <option value="media">Media</option>
+            <option value="baja">Baja</option>
+
+        </select>
+        <h3>Porque quieres ingresar</h3>
+        <textarea name="comentario" rows="10" cols="100"></textarea><br>
+        <input type="submit" name="enviar" value="Enviar">
+    </form>
+</body>
+</html>
