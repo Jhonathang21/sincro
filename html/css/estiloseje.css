@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+
+table{
+    margin: auto;
+}
+
+td{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+
+.color1{
+background-color: #04B431;
+
+}
+
+.color2{
+
+    background-color: lightgray;
+}
+
+.color3{
+background-color: #0040FF;
+}

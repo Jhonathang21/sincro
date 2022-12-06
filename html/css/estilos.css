@@ -1,0 +1,39 @@
+
+h3 {
+    color:red;
+}
+
+p {
+    color: green;
+    
+}
+
+body {
+    background-color: aquamarine;
+}
+
+div {
+    background-color: lightgray;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+div p {
+    border-width: 2px;
+    border-color: black;
+    border-style: dotted;
+}
+
+.capa1{
+    text-align: center;
+}
+
+.capa2{
+    color: blueviolet;
+    border: 2px green solid;
+}
+
+#opciones{
+    color: brown;
+}
